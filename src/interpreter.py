@@ -614,7 +614,7 @@ class SuperColliderInterpreter(OSCInterpreter):
 class SonicPiInterpreter(OSCInterpreter):
     filetype = ".rb"
     host = 'localhost'
-    port = 4557
+    port = 4560
     name = "Sonic-Pi"
 
     def new_osc_message(self, string):
